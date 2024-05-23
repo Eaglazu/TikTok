@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ctiktok",
+    "slug": "ctiktok",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "fonts": [
+      {
+        "asset": "./assets/fonts/HelveticaNeue.ttf"
+      }
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f03f2b56-4130-4610-aa9d-df0c6fd87e36"
+      }
+    }
+  }
+}
